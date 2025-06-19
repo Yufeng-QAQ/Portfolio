@@ -36,7 +36,16 @@ export const projectsData = [
         code: "",
         demo: "",
         description: "Developed a  travel assistant mobile app using React Native that provides personalized travel recommendations and real-time assistance to users. Integrated OpenAI API to enable natural language processing for user queries, resulting in 40% more efficient trip planning."
-    }
+    },
+        {
+        id: 5,
+        name: "Weather Assistant",
+        tools: ["React Native", "TypeScript", "Open-Meteo API", "AWS", "iOS Notifications"],
+        role: "Software Engineer",
+        code: "",
+        demo: "",
+        description: "A sleek mobile application that acts as a personal weather assistant, providing real-time weather updates and additional insights using the Open-Meteo API. The app includes a modern UI, backend integration, and iOS notifications for unique weather updates."
+    },
     
 ];
 

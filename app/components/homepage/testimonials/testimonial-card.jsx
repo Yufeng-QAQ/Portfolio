@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function TestimonialCard({ testimonial }) {
   return (
-    <div className="bg-[#2F2F2F] border-[#1b2c68a0] relative rounded-lg shadow-lg w-[300px] mx-2">
+    <div className="bg-[#2F2F2F] border-[#1b2c68a0] relative rounded-lg shadow-lg w-[500px] mx-2">
       {/* Gradient Borders */}
       <div className="flex flex-row">
         <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>

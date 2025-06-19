@@ -15,7 +15,7 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className="pt-24">
+      <div className="pt-24 flex overflow-x-auto no-scrollbar">
         <div className="flex flex-col gap-6">
         <div className="flex justify-center">
         <div className="flex overflow-x-auto space-x-4 px-4 no-scrollbar">
