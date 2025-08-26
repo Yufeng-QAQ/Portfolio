@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Image from 'next/image';
-import { FaCode } from 'react-icons/fa';
 
 function ExpCard({ exp }) {
   return (
@@ -10,27 +9,27 @@ function ExpCard({ exp }) {
         <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
       </div>
       <div className="px-4 lg:px-8 py-3 lg:py-5 relative">
-  <div className="flex items-center space-x-2">
-    {/* First set of 3 divs */}
-    <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-red-400"></div>
-    <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
-    <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-[#23950A]"></div>
+        <div className="flex items-center space-x-2">
+          {/* First set of 3 divs */}
+          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-red-400"></div>
+          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
+          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-[#23950A]"></div>
 
-    {/* Image and company */}
-    <div className="flex items-center space-x-2">
-      <Image
-        src={exp.image}  // Company logo image URL
-        alt="Company Logo"
-        width={50}        // Image size width
-        height={50}       // Image size height
-        className="rounded-full"  // Optional: makes the logo circular
-      />
-      <p className="text-center ml-3 text-[#fff] text-base lg:text-xl">
-        {exp.company}
-      </p>
-    </div>
-  </div>
-</div>
+          {/* Image and company */}
+          <div className="flex items-center space-x-2">
+            <Image
+              src={exp.image}  // Company logo image URL
+              alt="Company Logo"
+              width={50}        // Image size width
+              height={50}       // Image size height
+              className="rounded-full"  // Optional: makes the logo circular
+            />
+            <p className="text-center ml-3 text-[#fff] text-base lg:text-xl">
+              {exp.company}
+            </p>
+          </div>
+        </div>
+      </div>
 
 
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">

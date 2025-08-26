@@ -8,7 +8,7 @@ export const personalData = {
   phone: '+14436086121',
   address: 'Ellicott City, MD, USA',
   github: 'https://github.com/NehaNooka',
-  facebook: 'https://www.facebook.com/NehaNooka/',
+  // facebook: 'https://www.facebook.com/NehaNooka/',
   linkedIn: 'https://www.linkedin.com/in/yufengli206/',
   twitter: 'https://twitter.com/nehanooka',
   stackOverflow: 'https://stackoverflow.com/users/29148012/neha-nooka',
