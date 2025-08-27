@@ -69,6 +69,7 @@ function Education() {
                           <p className="text-[#4beba0] sm:text-xl mb-2 font-medium uppercase">
                             {education.title}
                           </p>
+                          <p className="text-sm sm:text-base font-semibold">{education.degress}</p>
                           <p className="text-sm sm:text-base">{education.institution}</p>
                           <p className="text-md sm:text-base  text-[#ffbf00] ">{education.gpa}</p>
                           </div>

@@ -7,12 +7,8 @@ export const personalData = {
   email: 'yufengli206@gmail.com',
   phone: '+14436086121',
   address: 'Ellicott City, MD, USA',
-  github: 'https://github.com/NehaNooka',
-  // facebook: 'https://www.facebook.com/NehaNooka/',
+  github: 'https://github.com/Yufeng-QAQ',
   linkedIn: 'https://www.linkedin.com/in/yufengli206/',
-  twitter: 'https://twitter.com/nehanooka',
-  stackOverflow: 'https://stackoverflow.com/users/29148012/neha-nooka',
-  leetcode: "https://leetcode.com/u/nehanooka/",
   devUsername: "Yufeng-QAQ",
-  resume: "https://drive.google.com/file/d/1mok3fS8xlHDKzFHDs-e9RvzCplpQ1ZEp/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1HQCYf1LK_HiWpVl3iuw-5egg2PefRdnn/view?usp=drive_link"
 }

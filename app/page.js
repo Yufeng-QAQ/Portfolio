@@ -13,10 +13,10 @@ export default async function Home() {
     <div suppressHydrationWarning >
       <HeroSection />
       <AboutSection />
+      <Education />
       <Experience />
       <Skills />
       <Projects />
-      <Education />
       <Testimonials />
       <ContactSection />
     </div>
